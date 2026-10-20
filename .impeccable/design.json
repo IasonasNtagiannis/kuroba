@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T14:26:12Z",
+  "title": "Design System: Kuroba",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Signal Vermilion",
+        "tonalRamp": ["oklch(15% 0.19 30)", "oklch(26.4% 0.19 30)", "oklch(37.9% 0.19 30)", "oklch(49.3% 0.19 30)", "oklch(60.7% 0.19 30)", "oklch(72.1% 0.19 30)", "oklch(83.6% 0.19 30)", "oklch(95% 0.19 30)"]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Vermilion Highlight",
+        "tonalRamp": ["oklch(15% 0.19 30)", "oklch(26.4% 0.19 30)", "oklch(37.9% 0.19 30)", "oklch(49.3% 0.19 30)", "oklch(60.7% 0.19 30)", "oklch(72.1% 0.19 30)", "oklch(83.6% 0.19 30)", "oklch(95% 0.19 30)"]
+      },
+      "secondary": {
+        "role": "secondary",
+        "displayName": "Instrument Amber",
+        "tonalRamp": ["oklch(15% 0.15 65)", "oklch(26.4% 0.15 65)", "oklch(37.9% 0.15 65)", "oklch(49.3% 0.15 65)", "oklch(60.7% 0.15 65)", "oklch(72.1% 0.15 65)", "oklch(83.6% 0.15 65)", "oklch(95% 0.15 65)"]
+      },
+      "background": {
+        "role": "neutral",
+        "displayName": "Black Field",
+        "tonalRamp": ["oklch(15% 0.01 30)", "oklch(26.4% 0.01 30)", "oklch(37.9% 0.01 30)", "oklch(49.3% 0.01 30)", "oklch(60.7% 0.01 30)", "oklch(72.1% 0.01 30)", "oklch(83.6% 0.01 30)", "oklch(95% 0.01 30)"]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Charcoal Surface",
+        "tonalRamp": ["oklch(15% 0.01 30)", "oklch(26.4% 0.01 30)", "oklch(37.9% 0.01 30)", "oklch(49.3% 0.01 30)", "oklch(60.7% 0.01 30)", "oklch(72.1% 0.01 30)", "oklch(83.6% 0.01 30)", "oklch(95% 0.01 30)"]
+      },
+      "surface-raised": {
+        "role": "neutral",
+        "displayName": "Raised Charcoal",
+        "tonalRamp": ["oklch(15% 0.01 30)", "oklch(26.4% 0.01 30)", "oklch(37.9% 0.01 30)", "oklch(49.3% 0.01 30)", "oklch(60.7% 0.01 30)", "oklch(72.1% 0.01 30)", "oklch(83.6% 0.01 30)", "oklch(95% 0.01 30)"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Warm Ivory",
+        "tonalRamp": ["oklch(15% 0.015 70)", "oklch(26.4% 0.015 70)", "oklch(37.9% 0.015 70)", "oklch(49.3% 0.015 70)", "oklch(60.7% 0.015 70)", "oklch(72.1% 0.015 70)", "oklch(83.6% 0.015 70)", "oklch(95% 0.015 70)"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Soft Ash",
+        "tonalRamp": ["oklch(15% 0.01 60)", "oklch(26.4% 0.01 60)", "oklch(37.9% 0.01 60)", "oklch(49.3% 0.01 60)", "oklch(60.7% 0.01 60)", "oklch(72.1% 0.01 60)", "oklch(83.6% 0.01 60)", "oklch(95% 0.01 60)"]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Warm Hairline",
+        "tonalRamp": ["oklch(15% 0.01 70)", "oklch(26.4% 0.01 70)", "oklch(37.9% 0.01 70)", "oklch(49.3% 0.01 70)", "oklch(60.7% 0.01 70)", "oklch(72.1% 0.01 70)", "oklch(83.6% 0.01 70)", "oklch(95% 0.01 70)"]
+      },
+      "ghost": {
+        "role": "neutral",
+        "displayName": "Graphite Ghost",
+        "tonalRamp": ["oklch(15% 0.005 40)", "oklch(26.4% 0.005 40)", "oklch(37.9% 0.005 40)", "oklch(49.3% 0.005 40)", "oklch(60.7% 0.005 40)", "oklch(72.1% 0.005 40)", "oklch(83.6% 0.005 40)", "oklch(95% 0.005 40)"]
+      },
+      "input": {
+        "role": "neutral",
+        "displayName": "Input Charcoal",
+        "tonalRamp": ["oklch(15% 0.01 30)", "oklch(26.4% 0.01 30)", "oklch(37.9% 0.01 30)", "oklch(49.3% 0.01 30)", "oklch(60.7% 0.01 30)", "oklch(72.1% 0.01 30)", "oklch(83.6% 0.01 30)", "oklch(95% 0.01 30)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Opening statement and major section headings." },
+      "headline": { "displayName": "Section Headline", "purpose": "Section introductions and short emphasis." },
+      "title": { "displayName": "Title", "purpose": "Service and component titles." },
+      "body": { "displayName": "Body", "purpose": "Descriptions, supporting copy, and form text." },
+      "label": { "displayName": "Segment Label", "purpose": "Geist Mono counters and compact indices." }
+    },
+    "shadows": [
+      { "name": "selected-tab", "value": "0 1px 2px hsl(var(--shadow) / 0.12)", "purpose": "A restrained selected-state cue on the working-model selector." }
+    ],
+    "motion": [
+      { "name": "color-feedback", "value": "180ms ease", "purpose": "Small link and button color changes." },
+      { "name": "reveal", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Section reveals and mobile navigation transitions; reduced motion is respected." }
+    ],
+    "breakpoints": [
+      { "name": "compact", "value": "680px" },
+      { "name": "tablet", "value": "900px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main project or contact action on the dark field.",
+      "html": "<a class=\"ds-button-primary\" href=\"#contact\">Start a project</a>",
+      "css": ".ds-button-primary { display: inline-flex; min-width: 198px; height: 60px; align-items: center; justify-content: center; padding: 0 28px; border: 1px solid #d83e2c; border-radius: 30px; background: #d83e2c; color: #f5eee7; font: 400 1.12rem Varta, Arial, sans-serif; text-decoration: none; transition: background-color .18s ease, border-color .18s ease; } .ds-button-primary:hover { border-color: #ea503b; background: #ea503b; } .ds-button-primary:focus-visible { outline: 2px solid #f8a84c; outline-offset: 4px; }"
+    },
+    {
+      "name": "Outline Action",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary route beside the primary hero action.",
+      "html": "<a class=\"ds-button-outline\" href=\"#model\">How we work</a>",
+      "css": ".ds-button-outline { display: inline-flex; min-width: 198px; height: 60px; align-items: center; justify-content: center; padding: 0 28px; border: 1px solid rgb(245 238 231 / 76%); border-radius: 30px; background: transparent; color: #f5eee7; font: 400 1.12rem Varta, Arial, sans-serif; text-decoration: none; transition: background-color .18s ease, border-color .18s ease; } .ds-button-outline:hover { background: rgb(245 238 231 / 8%); } .ds-button-outline:focus-visible { outline: 2px solid #f8a84c; outline-offset: 4px; }"
+    },
+    {
+      "name": "Form Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Dark, high-contrast field with an amber focus cue.",
+      "html": "<label class=\"ds-field\"><span>Email</span><input type=\"email\" placeholder=\"you@company.com\"></label>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 8px; color: #f5eee7; font: 500 .875rem Varta, Arial, sans-serif; } .ds-field input { height: 48px; padding: 0 16px; border: 1px solid rgb(245 238 231 / 22%); border-radius: 2px; background: #20201f; color: #f5eee7; font: 400 1rem Varta, Arial, sans-serif; transition: border-color .2s ease; } .ds-field input::placeholder { color: #c2bfbb; } .ds-field input:hover { border-color: rgb(245 238 231 / 35%); } .ds-field input:focus-visible { border-color: #f8a84c; outline: 1px solid #f8a84c; outline-offset: 0; } .ds-field input:invalid { border-color: #d83e2c; }"
+    },
+    {
+      "name": "Site Navigation",
+      "kind": "nav",
+      "refersTo": "button-outline",
+      "description": "Opaque sticky header with quiet text links and a bordered contact action.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-wordmark\" href=\"#top\">Kuroba</a><div><a href=\"#services\">Services</a><a href=\"#model\">How we work</a><a href=\"#team\">Team</a></div><a class=\"ds-nav-action\" href=\"#contact\">Start a project</a></nav>",
+      "css": ".ds-nav { display: flex; min-height: 88px; align-items: center; gap: 40px; padding: 0 clamp(24px, 5.1vw, 80px); background: #181818; color: #f5eee7; font-family: Varta, Arial, sans-serif; } .ds-wordmark { margin-right: auto; color: inherit; font-size: 1.85rem; letter-spacing: -.045em; text-decoration: none; } .ds-nav div { display: flex; gap: clamp(24px, 3.1vw, 48px); } .ds-nav div a { color: inherit; font-size: 1rem; text-decoration: none; transition: color .18s ease; } .ds-nav div a:hover { color: #f8a84c; } .ds-nav-action { padding: 9px 26px; border: 1px solid #f5eee7; border-radius: 17px; color: inherit; text-decoration: none; } .ds-nav-action:hover { background: rgb(245 238 231 / 8%); } .ds-nav a:focus-visible { outline: 2px solid #f8a84c; outline-offset: 4px; } @media (max-width: 680px) { .ds-nav { min-height: 76px; } .ds-nav div { display: none; } }"
+    },
+    {
+      "name": "Segment Service Index",
+      "kind": "custom",
+      "refersTo": "service-index-red",
+      "description": "Faceted seven-segment numerals paired with plain-language service names.",
+      "html": "<div class=\"ds-service-index\"><span class=\"ds-segment-number ds-segment-red\" role=\"img\" aria-label=\"01\"><span class=\"ds-digit\" data-value=\"0\"><i class=\"ds-segment ds-a\"></i><i class=\"ds-segment ds-b\"></i><i class=\"ds-segment ds-c\"></i><i class=\"ds-segment ds-d\"></i><i class=\"ds-segment ds-e\"></i><i class=\"ds-segment ds-f\"></i></span><span class=\"ds-digit\" data-value=\"1\"><i class=\"ds-segment ds-b\"></i><i class=\"ds-segment ds-c\"></i></span></span><span>Product design</span></div>",
+      "css": ".ds-service-index { display: flex; min-height: 90px; align-items: center; gap: clamp(18px, 3vw, 48px); padding: 12px 4%; color: #f5eee7; font: 400 clamp(1rem, 1.5vw, 1.35rem) Varta, Arial, sans-serif; } .ds-segment-number { --digit-width: 30px; --digit-height: 48px; --bar-size: 7px; display: inline-flex; flex: 0 0 auto; align-items: stretch; gap: 7px; color: #555351; } .ds-segment-red { color: #d83e2c; } .ds-digit { position: relative; display: block; flex: 0 0 var(--digit-width); width: var(--digit-width); height: var(--digit-height); } .ds-segment { position: absolute; display: block; background: currentColor; } .ds-a, .ds-g, .ds-d { left: 5px; width: calc(var(--digit-width) - 10px); height: var(--bar-size); clip-path: polygon(4px 0, calc(100% - 4px) 0, 100% 50%, calc(100% - 4px) 100%, 4px 100%, 0 50%); } .ds-a { top: 0; } .ds-g { top: calc(50% - var(--bar-size) / 2); } .ds-d { bottom: 0; } .ds-b, .ds-c, .ds-e, .ds-f { width: var(--bar-size); height: calc((var(--digit-height) - var(--bar-size) - 10px) / 2); clip-path: polygon(0 4px, 50% 0, 100% 4px, 100% calc(100% - 4px), 50% 100%, 0 calc(100% - 4px)); } .ds-b, .ds-f { top: 4px; } .ds-c, .ds-e { bottom: 4px; } .ds-b, .ds-c { right: 4px; } .ds-e, .ds-f { left: 4px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Black Feather Instrument",
+    "overview": "Kuroba's name means “black feather.” The identity turns that literal meaning into a mark assembled from dark, faceted feather forms, with a few vermilion and amber segments carrying the signal. The surrounding interface feels like a quiet instrument panel: nearly black, lightly textured, precise in its dividers, and warm in its typography. The page pairs a large, direct statement with compact indexed service information. Varta keeps the voice human and readable; Geist Mono supplies the measured numeric register. Color is concentrated in calls to action and selected indices, while the feather stays mostly in shadow. The studio's established promise is to design and build web apps end to end.",
+    "keyCharacteristics": [
+      "Near-black surfaces with warm white type and a faint field texture.",
+      "One vermilion signal, balanced by amber as a secondary signal.",
+      "Feather geometry and segmented numerals as recurring identity devices.",
+      "Editorial scale paired with simple ruled lists and generous breathing room."
+    ],
+    "rules": [
+      { "name": "The Signal Rule", "body": "Reserve vermilion and amber for actions, indices, and selected states; let the black feather and surrounding field remain mostly dark.", "section": "colors" },
+      { "name": "The Two-Registers Rule", "body": "Use Varta for messages and headings; use Geist Mono for counts and compact technical indices.", "section": "typography" },
+      { "name": "The Instrument-Panel Rule", "body": "Separate content with tonal shifts, texture, and hairlines; keep large surfaces flat and avoid ambient shadow.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep the black feather as the identity's central image and let most of its facets stay in shadow.",
+      "Do use vermilion for the primary action and amber for secondary numbering or focus.",
+      "Do organize information with generous spacing, clear rows, and subtle rules.",
+      "Do use real seven-segment geometry for brand indices rather than plain monospaced digits.",
+      "Do retain a visible keyboard focus treatment and respect reduced-motion preferences."
+    ],
+    "donts": [
+      "Don't add unverified client work, metrics, or claims as visual proof.",
+      "Don't fill large areas with accent color or make every feather segment bright.",
+      "Don't turn simple lists into decorative card grids or add broad drop shadows.",
+      "Don't replace the segmented brand numerals with a generic icon or arbitrary display glyph."
+    ]
+  }
+}

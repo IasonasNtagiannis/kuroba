@@ -1,0 +1,22 @@
+{
+  "regions": [
+    { "id": "field-noise", "kind": "texture", "grid": "A1:B1", "note": "Fine low-contrast grain on an otherwise near-black matte instrument ground." },
+    { "id": "wordmark", "kind": "text", "grid": "A0:B0", "note": "Kuroba wordmark in warm-white sans." },
+    { "id": "nav-links", "kind": "text", "grid": "G0:I0", "note": "Three evenly spaced navigation labels: Work, About, and How we work." },
+    { "id": "nav-cta", "kind": "control", "grid": "I0:J0", "note": "Outline project action in header." },
+    { "id": "hero-heading", "kind": "text", "grid": "A2:E4", "note": "Three-line studio proposition in warm white, large sans." },
+    { "id": "hero-support", "kind": "text", "grid": "A5:D5", "note": "Three-line supporting statement in warm-white sans." },
+    { "id": "hero-cta", "kind": "control", "grid": "A6:B6", "note": "Filled vermilion project action." },
+    { "id": "hero-secondary", "kind": "control", "grid": "C6:D6", "note": "Outline secondary action." },
+    { "id": "feather-mark", "kind": "plate", "grid": "G1:J6", "note": "Large segmented feather emblem with charcoal ghost cells and red and amber active segments." },
+    { "id": "service-divider", "kind": "chrome", "grid": "A7:J7", "note": "Fine horizontal rule above the service rail." },
+    { "id": "service-one-number", "kind": "text", "grid": "A8:A8", "note": "Seven-segment 01 in vermilion." },
+    { "id": "service-one-label", "kind": "text", "grid": "B8:C8", "note": "Product design label." },
+    { "id": "service-one-separator", "kind": "chrome", "grid": "D8:D8", "note": "Thin vertical rule between service cells." },
+    { "id": "service-two-number", "kind": "text", "grid": "D8:E8", "note": "Seven-segment 02 in amber." },
+    { "id": "service-two-label", "kind": "text", "grid": "E8:G8", "note": "Full-stack engineering label." },
+    { "id": "service-two-separator", "kind": "chrome", "grid": "G8:G8", "note": "Thin vertical rule between service cells." },
+    { "id": "service-three-number", "kind": "text", "grid": "H8:H8", "note": "Seven-segment 03 in subdued ghost segments." },
+    { "id": "service-three-label", "kind": "text", "grid": "I8:J8", "note": "Cloud infrastructure label." }
+  ]
+}

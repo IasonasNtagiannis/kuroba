@@ -19,7 +19,7 @@ export function Process() {
         </div>
       </div>
 
-      <div className="lg:col-span-7 lg:pb-[20vh]">
+      <div className="lg:col-span-7">
         <ProcessSteps />
       </div>
     </section>

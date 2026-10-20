@@ -35,7 +35,7 @@ export function ProcessSteps() {
       {steps.map((s) => (
         <motion.li
           key={s.title}
-          initial={reduce ? false : { opacity: 0.3 }}
+          initial={reduce ? false : { opacity: 0.72 }}
           whileInView={{ opacity: 1 }}
           viewport={{ margin: "-40% 0px -40% 0px" }}
           transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}

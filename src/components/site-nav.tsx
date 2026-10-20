@@ -7,9 +7,8 @@ import { CONTACT_LABEL } from "@/lib/copy";
 import { Logo } from "./logo";
 
 const links = [
-  { href: "#model", label: "How we work" },
   { href: "#services", label: "Services" },
-  { href: "#process", label: "Process" },
+  { href: "#model", label: "How we work" },
   { href: "#team", label: "Team" },
 ];
 
@@ -18,7 +17,7 @@ export function SiteNav() {
   const reduce = useReducedMotion();
 
   return (
-    <header className="sticky top-0 z-40 border-b border-line bg-bg/80 backdrop-blur-md">
+    <header className="sticky top-0 z-40 border-b border-line bg-bg">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 md:px-8">
         <a href="#top" aria-label="Kuroba, back to top">
           <Logo />
@@ -65,7 +64,7 @@ export function SiteNav() {
             animate={{ opacity: 1, y: 0 }}
             exit={reduce ? { opacity: 0 } : { opacity: 0, y: -8 }}
             transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
-            className="border-t border-line px-4 pt-2 pb-6 md:hidden"
+            className="border-t border-line bg-bg px-4 pt-2 pb-6 md:hidden"
           >
             <ul className="flex flex-col">
               {links.map((l) => (

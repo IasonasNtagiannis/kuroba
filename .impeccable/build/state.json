@@ -1,0 +1,117 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-10-20T13:57:19.637Z",
+  "comp": ".impeccable/mocks/approved-homepage.png",
+  "direction": null,
+  "breakpoint": "1536x1024",
+  "artifact": null,
+  "phase": "hero",
+  "phases": {
+    "comps": {
+      "status": "skipped",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [
+        {
+          "at": "2026-10-20T13:57:19.637Z",
+          "text": "started with an approved comp; the comp round happened before this state (surface round or manual)"
+        }
+      ],
+      "gate": null,
+      "forced": null
+    },
+    "spec": {
+      "status": "closed",
+      "openedAt": "2026-10-20T13:57:19.637Z",
+      "closedAt": "2026-10-20T14:08:11.840Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "18 regions, 2 plates, 10 text regions measured",
+        "at": "2026-10-20T14:08:11.839Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "closed",
+      "openedAt": "2026-10-20T14:08:11.840Z",
+      "closedAt": "2026-10-20T14:08:33.004Z",
+      "attempts": 3,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "2/2 plates",
+        "at": "2026-10-20T14:08:33.004Z"
+      },
+      "forced": null
+    },
+    "hero": {
+      "status": "open",
+      "openedAt": "2026-10-20T14:08:33.004Z",
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [
+        {
+          "at": "2026-10-20T14:19:01.797Z",
+          "text": "Hero visually checked in browser against the approved comp; CUA exposed a rendered screenshot for inspection but no local PNG export, so the required hero-repro.png gate could not be recorded."
+        }
+      ],
+      "gate": null,
+      "forced": null
+    },
+    "sections": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "motion": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "responsive": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "review": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": null,
+  "plates": {
+    "field-noise": {
+      "status": "ok",
+      "score": 1,
+      "size": "614x204"
+    },
+    "feather-mark": {
+      "status": "ok",
+      "score": 0.7237,
+      "size": "1254x1254"
+    }
+  }
+}

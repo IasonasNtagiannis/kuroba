@@ -23,9 +23,9 @@ const services = [
     tags: ["AWS", "Terraform", "Kubernetes"],
   },
   {
-    title: "Data and AI",
-    body: "Pipelines, search and LLM features built by people with research backgrounds, and measured before they ship.",
-    tags: ["Data pipelines", "RAG", "Evaluation"],
+    title: "AI adoption",
+    body: "Find practical use cases, connect AI to the systems and data your teams rely on, and evaluate it before it reaches production.",
+    tags: ["Use-case discovery", "AI integration", "Evaluation"],
   },
 ];
 
@@ -33,7 +33,7 @@ export function Services() {
   return (
     <section id="services" className="services-section mx-auto max-w-7xl px-4 py-20 md:px-8 md:py-28">
       <Reveal onView>
-        <h2>Everything a web app needs, under one roof.</h2>
+        <h2>From AI pilots to lasting digital change.</h2>
       </Reveal>
       <div className="service-list">
         {services.map((service, index) => (

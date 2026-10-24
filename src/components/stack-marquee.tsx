@@ -9,7 +9,7 @@ export function StackMarquee() {
   return (
     <section aria-label="Technologies we work with" className="stack-section">
       <div className="stack-intro">
-        <h2>The stack we work in, from first sketch to production.</h2>
+        <h2>The tools behind useful AI and resilient digital products.</h2>
       </div>
       <ul className="stack-list">
         {stack.map((name, index) => (

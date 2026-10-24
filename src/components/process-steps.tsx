@@ -5,7 +5,7 @@ import { motion, useReducedMotion } from "motion/react";
 const steps = [
   {
     title: "Scope",
-    body: "We map your users, the risks and the smallest version worth shipping, then agree a plan and an estimate with you.",
+    body: "We map your workflows, users and risks, find the smallest useful step, then agree a plan and estimate with you.",
   },
   {
     title: "Design",
@@ -21,7 +21,7 @@ const steps = [
   },
   {
     title: "Support",
-    body: "We stay on to fix, measure and extend, or hand over cleanly to your own team with docs and walkthroughs.",
+    body: "We stay on to fix, measure and extend adoption, or hand over cleanly to your own team with docs and walkthroughs.",
   },
 ];
 

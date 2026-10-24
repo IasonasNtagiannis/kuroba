@@ -1,6 +1,6 @@
 ---
 name: Kuroba
-description: A Greece-based software team designing and building web apps end to end.
+description: AI adoption and digital transformation, delivered through product design, engineering, data and cloud.
 colors:
   primary: "#d83e2c"
   primary-hover: "#ea503b"
@@ -86,7 +86,7 @@ components:
 
 Kuroba's name means “black feather.” The identity turns that literal meaning into a mark assembled from dark, faceted feather forms, with a few vermilion and amber segments carrying the signal. The surrounding interface feels like a quiet instrument panel: nearly black, lightly textured, precise in its dividers, and warm in its typography.
 
-The page pairs a large, direct statement with compact indexed service information. Varta keeps the voice human and readable; Geist Mono supplies the measured numeric register. Color is concentrated in calls to action and selected indices, while the feather stays mostly in shadow. The studio's established promise is to design and build web apps end to end.
+The page pairs a direct AI and transformation statement with compact indexed service information. Varta keeps the voice human and readable; Geist Mono supplies the measured numeric register. Color is concentrated in calls to action and selected indices, while the feather stays mostly in shadow. The brand presents Kuroba as a partner for moving from AI experiments to useful production workflows and modernizing the systems around them.
 
 **Key Characteristics:**
 - Near-black surfaces with warm white type and a faint field texture.

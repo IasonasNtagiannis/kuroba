@@ -9,8 +9,8 @@ export function Team() {
           The people you will work with.
         </h2>
         <p className="mt-5 max-w-[60ch] text-lg leading-relaxed text-muted">
-          Five engineers at the core, from startups, scale-ups, research and big
-          tech, with a network that covers the rest.
+          Five engineers at the core, with experience across startups, scale-ups,
+          research and big tech. We bring in specialists as the work requires.
         </p>
       </Reveal>
 

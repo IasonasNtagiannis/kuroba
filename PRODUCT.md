@@ -8,15 +8,15 @@ web
 
 ## Users
 
-Startups and scale-ups seeking a software team for product design, full-stack engineering, and cloud infrastructure.
+Teams seeking practical AI adoption and digital transformation, backed by product design, full-stack engineering, data and cloud expertise.
 
 ## Product Purpose
 
-Kuroba is a Greece-based software team that designs and builds web apps end to end.
+Kuroba helps teams move from AI experiments to everyday use and modernize the systems around them. The Greece-based team connects discovery, product design, AI engineering and cloud delivery through production.
 
 ## Capabilities and Constraints
 
-The studio offers product design, full-stack engineering, and cloud infrastructure. The website includes a project contact form, services, process, working model, and team information.
+The studio offers product design, full-stack engineering, data and AI, and cloud infrastructure. AI work includes use-case discovery, integrations, search, LLM features and evaluation. The website includes a project contact form, services, process, working model, and team information.
 
 ## Brand Commitments
 

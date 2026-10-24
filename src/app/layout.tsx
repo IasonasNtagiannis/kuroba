@@ -17,9 +17,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Kuroba | Web apps, designed and built end to end",
+  title: "Kuroba | AI adoption and digital transformation",
   description:
-    "Kuroba is a Greece-based software team. Product design, full-stack engineering and cloud infrastructure for startups and scale-ups.",
+    "Kuroba helps teams move from AI experiments to everyday use and modernize the systems around them, from first use case to production.",
 };
 
 export const viewport: Viewport = {

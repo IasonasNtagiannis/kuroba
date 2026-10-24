@@ -6,12 +6,12 @@ export function ModelSection() {
     <section id="model" className="mx-auto max-w-7xl px-4 py-20 md:px-8 md:py-28">
       <Reveal onView>
         <h2 className="max-w-[20ch] text-4xl leading-[1.05] font-semibold tracking-tighter text-balance md:text-5xl">
-          A senior core team with a deep network.
+          The right team to move change into production.
         </h2>
         <p className="mt-5 max-w-[60ch] text-lg leading-relaxed text-muted">
-          Our network covers nearly every area of technology, from product
-          design to ML research and cloud security. Each project gets exactly
-          the people it needs.
+          Our network spans product design, ML research and cloud security.
+          Each project gets the people it needs to connect a new idea to the
+          systems and teams that will use it.
         </p>
       </Reveal>
 

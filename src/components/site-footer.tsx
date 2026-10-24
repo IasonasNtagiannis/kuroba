@@ -13,7 +13,7 @@ export function SiteFooter() {
       <div className="mx-auto flex max-w-7xl flex-col gap-8 px-4 py-12 md:flex-row md:items-end md:justify-between md:px-8">
         <div>
           <Logo />
-          <p className="mt-3 text-sm text-muted">A software team based in Greece.</p>
+          <p className="mt-3 text-sm text-muted">AI adoption and digital transformation, built by a team in Greece.</p>
         </div>
         <nav aria-label="Footer">
           <ul className="flex flex-wrap gap-x-6 gap-y-2">

@@ -3,9 +3,9 @@ import { CONTACT_LABEL } from "@/lib/copy";
 import { SegmentDisplay } from "./segment-display";
 
 const services = [
-  { number: "01", label: "Product design", tone: "red" },
-  { number: "02", label: "Full-stack engineering", tone: "amber" },
-  { number: "03", label: "Cloud infrastructure", tone: "ghost" },
+  { number: "01", label: "AI adoption", tone: "red" },
+  { number: "02", label: "Digital products", tone: "amber" },
+  { number: "03", label: "Cloud transformation", tone: "ghost" },
 ];
 
 export function Hero() {
@@ -13,10 +13,11 @@ export function Hero() {
     <section id="top" className="hero-shell">
       <div className="hero-main">
         <div className="hero-copy">
-          <h1>Web apps,<br />designed and<br />built end to end.</h1>
+          <h1>Adopt AI.<br />Transform how<br />you work.</h1>
           <p>
-            A Greek core team of startup, scale-up and big-tech engineers.
-            Design, full-stack and cloud, staffed from people we trust.
+            We help teams move from AI experiments to everyday use, and modernize
+            the systems around them. One senior team, from first use case to
+            production.
           </p>
           <div className="hero-actions">
             <a href="#contact" className="button button-primary">{CONTACT_LABEL}</a>

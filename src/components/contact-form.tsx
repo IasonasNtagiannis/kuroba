@@ -150,7 +150,7 @@ export function ContactForm() {
               </Field>
             </div>
 
-            <Field id="message" label="What are you building?" error={errors.message}>
+            <Field id="message" label="What would you like to change?" error={errors.message}>
               <textarea
                 id="message"
                 name="message"
@@ -162,7 +162,7 @@ export function ContactForm() {
               />
               {!errors.message && (
                 <p id="message-help" className="text-sm text-muted">
-                  The product, where it stands today and roughly when you need it.
+                  Tell us about the AI opportunity, product or process, where it stands today and roughly when you need it.
                 </p>
               )}
             </Field>
